@@ -16,6 +16,8 @@ public class Program {
     }
 
     public static void printList(List<?> list){
+        //list.add(3);     Não é possível adicionar à lista curinga, pois  o compilador não sabe se a tipagem do que foi adicionado é compatível com a lista
+
         for (Object obj: list){
             System.out.println(obj);
         }
